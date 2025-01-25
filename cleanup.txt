@@ -1,0 +1,47 @@
+/*
+c.fillStyle=getrandom();
+c.fillRect(100,100,100,100);
+c.fillStyle="green";
+c.fillRect(400,400,200,200);
+
+//line
+c.beginPath();
+c.moveTo(5,300);
+c.lineTo(700,300);
+c.lineTo(700,7000);
+c.strokeStyle="gray"
+c.stroke();
+
+
+for(var i=0;i<10;i++)
+{
+    var x= Math.random()*window.innerWidth+1
+    var y= Math.random()*window.innerHeight+1
+   
+      
+    document.z;
+    c.strokeStyle=getrandom();
+    c.beginPath();
+    c.arc(x,y,45,0,Math.PI*2,false);
+    c.stroke();
+}
+function getrandom()
+{
+
+var r= Math.random()*256;
+var g= Math.random()*256;
+var b= Math.random()*256;
+return `rgb(${r}, ${g}, ${b})`;
+
+}
+*/
+//arch
+/*
+
+*/
+function getrandom() {
+    var r = Math.random() * 256;
+    var g = Math.random() * 256;
+    var b = Math.random() * 256;
+    return `rgb(${r}, ${g}, ${b})`;
+}

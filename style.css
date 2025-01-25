@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+canvas {
+
+    border: px solid black;
+    background-color: whitesmoke;
+}
